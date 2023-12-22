@@ -1,0 +1,387 @@
+@media (max-width: 1790px) {
+  .banner .banner-tree-left {
+    left: 166px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .banner .banner-tree-right {
+    top: 9px;
+    right: 25px;
+  }
+
+  .articles .articles-wrapp__item-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .articles .articles-wrapp__item {
+    max-width: 343px;
+  }
+
+  .articles {
+    margin-bottom: 211px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .about-brands__content-img {
+    max-width: 552px;
+  }
+
+  .about-brands__content {
+    justify-content: none;
+  }
+}
+
+@media (max-width: 1370px) {
+  .first-block__title {
+    font-size: 50px;
+  }
+
+  .about-brands__content {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-brands__content-img {
+    margin-bottom: 20px;
+  }
+
+  .about-brands__content-text {
+    max-width: 700px;
+    margin: 0px auto 40px;
+  }
+
+  .footer-contacts {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .made-furniture__about-descrition {
+    font-size: 34px;
+  }
+
+  .made-furniture__about-descrition-subtitle {
+    font-size: 20px;
+  }
+
+  .made-furniture__about-descrition-text {
+    font-size: 16px;
+  }
+
+  .made-furniture__about-images-img2 {
+    width: 340px;
+  }
+
+  .made-furniture__about-images-img1 {
+    width: 277px;
+  }
+
+  .fowWho-block {
+    flex-direction: column;
+  }
+
+  .fowWho-block__title {
+    margin-bottom: 40px;
+  }
+
+  .fowWho-block__title {
+    margin-right: 0px;
+  }
+
+  .articles .articles-wrapp__item {
+    max-width: 313px;
+  }
+
+  .answers__wrapp {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-search {
+    display: none;
+  }
+
+  .furniture__content-wrapp {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .advantages__list-item {
+    font-size: 19px;
+  }
+
+  .order-process__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner .banner-sale {
+    top: 46%;
+  }
+
+  .banner .banner-tree-right {
+    width: 200px;
+    height: 300px;
+    top: 261px;
+    right: 189px;
+  }
+
+  .banner .banner-right__title {
+    font-size: 35px;
+  }
+
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1014px) {
+  .furniture__list {
+    overflow: auto;
+  }
+
+  .furniture__list-item-link {
+    white-space: nowrap;
+  }
+
+  .made-furniture__about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .made-furniture__about {
+    margin-bottom: 152px;
+  }
+
+  .about-brands__reedmore-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .articles .articles-wrapp {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articles .articles-wrapp__item {
+    margin-bottom: 40px;
+  }
+
+  .articles__title {
+    text-align: center;
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 914px) {
+  .header-top {
+    flex-direction: column;
+  }
+
+  .advantages__list {
+    flex-direction: column;
+  }
+
+  .advantages__list-item {
+    margin-bottom: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .header-top__icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .place {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .schedule {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  .number {
+    margin-right: 0px;
+  }
+
+  .btn-menu {
+    display: block;
+    top: -10px;
+    z-index: 929199999999;
+  }
+
+  .nav__list {
+    z-index: 1000;
+    background: rgba(34, 34, 34, 0.925);
+    position: fixed;
+    left: -1000%;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    transition: all 0.3s;
+  }
+
+  .nav__list.active {
+    left: 0px;
+  }
+
+  .first-block__title {
+    font-size: 37px;
+  }
+
+  .first-block__title-elipce-text::before {
+    width: 193px;
+    top: -12px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .furniture__content-wrapp {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .order-process__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .first-block__content {
+    display: none;
+  }
+
+  .first-block__content-wrap-mobile {
+    display: block;
+  }
+
+  .social {
+    top: auto;
+    bottom: 0%;
+    width: 100%;
+  }
+
+  .social-list {
+    flex-direction: row;
+  }
+
+  .social-list__item {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .social-list__item-link-img {
+    max-width: 100%;
+  }
+
+  .advantages__list-item {
+    font-size: 16px;
+  }
+
+  .furniture__content-wrapp {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-brands__reedmore-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-brands__content-img {
+    max-width: 300px;
+  }
+
+  .banner .banner-tree-left {
+    display: none;
+  }
+
+  .answer-from__form-input {
+    padding: 20px 10px 20px 10px;
+    width: 350px;
+    margin: 0px auto 20px;
+  }
+
+  .answer-from__form-btn {
+    width: 336px;
+  }
+}
+
+@media (max-width: 500px) {
+  .first-block__content-wrap-mobile {
+    width: 345px;
+  }
+
+  .first-block__title {
+    font-size: 24px;
+  }
+
+  .first-block__title-elipce-text {
+    display: block;
+    padding-top: 15px;
+  }
+
+  .first-block__title-elipce-text::before {
+    width: 155px;
+    left: 95px;
+    top: 9px;
+  }
+
+  .first-block__content-text {
+    font-size: 16px;
+  }
+
+  .made-furniture__about-images-img1 {
+    position: absolute;
+    top: 30%;
+    right: 9%;
+  }
+
+  .fowWho-block__title::before {
+    width: 273px;
+    height: 88px;
+    left: -77px;
+    background-size: contain;
+  }
+
+  .answer-from__form-input {
+    width: 275px;
+  }
+
+  .answer-from__form {
+    display: none;
+  }
+
+  .footer__content {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .social {
+    display: none;
+  }
+}
